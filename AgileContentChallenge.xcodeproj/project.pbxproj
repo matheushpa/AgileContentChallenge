@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06FED9675442415174555814 /* Pods_AgileContentChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BE26CCF35FCD66CF58CFF5 /* Pods_AgileContentChallengeUITests.framework */; };
+		38463E28AF40E84CAF355A8D /* Pods_AgileContentChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D840E7691028A39F47B76551 /* Pods_AgileContentChallengeTests.framework */; };
+		CE74CFDF1F9E834A00545276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74CFDE1F9E834A00545276 /* AppDelegate.swift */; };
+		CE74CFE41F9E834A00545276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE74CFE21F9E834A00545276 /* Main.storyboard */; };
+		CE74CFE61F9E834A00545276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE74CFE51F9E834A00545276 /* Assets.xcassets */; };
+		CE74CFE91F9E834A00545276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE74CFE71F9E834A00545276 /* LaunchScreen.storyboard */; };
+		CE74CFF41F9E834A00545276 /* AgileContentChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74CFF31F9E834A00545276 /* AgileContentChallengeTests.swift */; };
+		CE74CFFF1F9E834A00545276 /* AgileContentChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74CFFE1F9E834A00545276 /* AgileContentChallengeUITests.swift */; };
+		CE74D00D1F9E841100545276 /* GitHubSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74D00C1F9E841100545276 /* GitHubSearchViewController.swift */; };
+		CE74D00F1F9E842800545276 /* GitHubProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74D00E1F9E842800545276 /* GitHubProfileViewController.swift */; };
+		CE74D0181F9FAF2300545276 /* GitHubProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74D0171F9FAF2300545276 /* GitHubProfileService.swift */; };
+		CE74D01A1F9FB41000545276 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74D0191F9FB41000545276 /* RequestFactory.swift */; };
+		CE74D01C1F9FB50500545276 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74D01B1F9FB50500545276 /* Repository.swift */; };
+		E9EBBDE7D7908AAF6E484F4E /* Pods_AgileContentChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2E5A5076392371C8AF2695 /* Pods_AgileContentChallenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE74CFF01F9E834A00545276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE74CFD31F9E834A00545276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE74CFDA1F9E834A00545276;
+			remoteInfo = AgileContentChallenge;
+		};
+		CE74CFFB1F9E834A00545276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE74CFD31F9E834A00545276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE74CFDA1F9E834A00545276;
+			remoteInfo = AgileContentChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080EE79D9D33060CD31B0479 /* Pods-AgileContentChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgileContentChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AgileContentChallengeTests/Pods-AgileContentChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		289F985BB278A20F319C6392 /* Pods-AgileContentChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgileContentChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AgileContentChallenge/Pods-AgileContentChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		309AD94ABB09C48645305A52 /* Pods-AgileContentChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgileContentChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AgileContentChallengeTests/Pods-AgileContentChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		471AFE738B1226A82375BDAD /* Pods-AgileContentChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgileContentChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AgileContentChallengeUITests/Pods-AgileContentChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D2E5A5076392371C8AF2695 /* Pods_AgileContentChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgileContentChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A449721B3545BFC76FDC1BCB /* Pods-AgileContentChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgileContentChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-AgileContentChallenge/Pods-AgileContentChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		CE74CFDB1F9E834A00545276 /* AgileContentChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgileContentChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE74CFDE1F9E834A00545276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE74CFE31F9E834A00545276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE74CFE51F9E834A00545276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE74CFE81F9E834A00545276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE74CFEA1F9E834A00545276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE74CFEF1F9E834A00545276 /* AgileContentChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgileContentChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE74CFF31F9E834A00545276 /* AgileContentChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgileContentChallengeTests.swift; sourceTree = "<group>"; };
+		CE74CFF51F9E834A00545276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE74CFFA1F9E834A00545276 /* AgileContentChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgileContentChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE74CFFE1F9E834A00545276 /* AgileContentChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgileContentChallengeUITests.swift; sourceTree = "<group>"; };
+		CE74D0001F9E834A00545276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE74D00C1F9E841100545276 /* GitHubSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSearchViewController.swift; sourceTree = "<group>"; };
+		CE74D00E1F9E842800545276 /* GitHubProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubProfileViewController.swift; sourceTree = "<group>"; };
+		CE74D0171F9FAF2300545276 /* GitHubProfileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubProfileService.swift; sourceTree = "<group>"; };
+		CE74D0191F9FB41000545276 /* RequestFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		CE74D01B1F9FB50500545276 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		D1C4DCDE9D7A3703C94DED32 /* Pods-AgileContentChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgileContentChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AgileContentChallengeUITests/Pods-AgileContentChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D840E7691028A39F47B76551 /* Pods_AgileContentChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgileContentChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BE26CCF35FCD66CF58CFF5 /* Pods_AgileContentChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgileContentChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE74CFD81F9E834A00545276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EBBDE7D7908AAF6E484F4E /* Pods_AgileContentChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE74CFEC1F9E834A00545276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38463E28AF40E84CAF355A8D /* Pods_AgileContentChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE74CFF71F9E834A00545276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FED9675442415174555814 /* Pods_AgileContentChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEAC70B7131DDD8B6801A394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D2E5A5076392371C8AF2695 /* Pods_AgileContentChallenge.framework */,
+				D840E7691028A39F47B76551 /* Pods_AgileContentChallengeTests.framework */,
+				E7BE26CCF35FCD66CF58CFF5 /* Pods_AgileContentChallengeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE74CFD21F9E834A00545276 = {
+			isa = PBXGroup;
+			children = (
+				CE74CFDD1F9E834A00545276 /* AgileContentChallenge */,
+				CE74CFF21F9E834A00545276 /* AgileContentChallengeTests */,
+				CE74CFFD1F9E834A00545276 /* AgileContentChallengeUITests */,
+				CE74CFDC1F9E834A00545276 /* Products */,
+				D6F598CFB50583357E846663 /* Pods */,
+				BEAC70B7131DDD8B6801A394 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE74CFDC1F9E834A00545276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE74CFDB1F9E834A00545276 /* AgileContentChallenge.app */,
+				CE74CFEF1F9E834A00545276 /* AgileContentChallengeTests.xctest */,
+				CE74CFFA1F9E834A00545276 /* AgileContentChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE74CFDD1F9E834A00545276 /* AgileContentChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				CE74D0151F9F9FD500545276 /* Application */,
+				CE74D01D1F9FBC3D00545276 /* Model */,
+				CE74D0161F9FAB2C00545276 /* Service */,
+				CE74D0141F9F9FBE00545276 /* GitHub Viewer */,
+				CE74D0131F9F9FA200545276 /* Assets */,
+				CE74D0121F9F9F8E00545276 /* Supporting Files */,
+			);
+			path = AgileContentChallenge;
+			sourceTree = "<group>";
+		};
+		CE74CFF21F9E834A00545276 /* AgileContentChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE74CFF31F9E834A00545276 /* AgileContentChallengeTests.swift */,
+				CE74CFF51F9E834A00545276 /* Info.plist */,
+			);
+			path = AgileContentChallengeTests;
+			sourceTree = "<group>";
+		};
+		CE74CFFD1F9E834A00545276 /* AgileContentChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE74CFFE1F9E834A00545276 /* AgileContentChallengeUITests.swift */,
+				CE74D0001F9E834A00545276 /* Info.plist */,
+			);
+			path = AgileContentChallengeUITests;
+			sourceTree = "<group>";
+		};
+		CE74D0121F9F9F8E00545276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE74CFEA1F9E834A00545276 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE74D0131F9F9FA200545276 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CE74CFE51F9E834A00545276 /* Assets.xcassets */,
+				CE74CFE71F9E834A00545276 /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		CE74D0141F9F9FBE00545276 /* GitHub Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				CE74CFE21F9E834A00545276 /* Main.storyboard */,
+				CE74D00C1F9E841100545276 /* GitHubSearchViewController.swift */,
+				CE74D00E1F9E842800545276 /* GitHubProfileViewController.swift */,
+			);
+			name = "GitHub Viewer";
+			sourceTree = "<group>";
+		};
+		CE74D0151F9F9FD500545276 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CE74CFDE1F9E834A00545276 /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		CE74D0161F9FAB2C00545276 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CE74D0191F9FB41000545276 /* RequestFactory.swift */,
+				CE74D0171F9FAF2300545276 /* GitHubProfileService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		CE74D01D1F9FBC3D00545276 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE74D01B1F9FB50500545276 /* Repository.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D6F598CFB50583357E846663 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				289F985BB278A20F319C6392 /* Pods-AgileContentChallenge.debug.xcconfig */,
+				A449721B3545BFC76FDC1BCB /* Pods-AgileContentChallenge.release.xcconfig */,
+				309AD94ABB09C48645305A52 /* Pods-AgileContentChallengeTests.debug.xcconfig */,
+				080EE79D9D33060CD31B0479 /* Pods-AgileContentChallengeTests.release.xcconfig */,
+				471AFE738B1226A82375BDAD /* Pods-AgileContentChallengeUITests.debug.xcconfig */,
+				D1C4DCDE9D7A3703C94DED32 /* Pods-AgileContentChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE74CFDA1F9E834A00545276 /* AgileContentChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE74D0031F9E834A00545276 /* Build configuration list for PBXNativeTarget "AgileContentChallenge" */;
+			buildPhases = (
+				361DBF722BE33A886A650D90 /* [CP] Check Pods Manifest.lock */,
+				CE74CFD71F9E834A00545276 /* Sources */,
+				CE74CFD81F9E834A00545276 /* Frameworks */,
+				CE74CFD91F9E834A00545276 /* Resources */,
+				D491172DB7993E8561B8D16D /* [CP] Embed Pods Frameworks */,
+				8A2FD3416247A786283DF5F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgileContentChallenge;
+			productName = AgileContentChallenge;
+			productReference = CE74CFDB1F9E834A00545276 /* AgileContentChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE74CFEE1F9E834A00545276 /* AgileContentChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE74D0061F9E834A00545276 /* Build configuration list for PBXNativeTarget "AgileContentChallengeTests" */;
+			buildPhases = (
+				F1001510BAA43BADA359EFB4 /* [CP] Check Pods Manifest.lock */,
+				CE74CFEB1F9E834A00545276 /* Sources */,
+				CE74CFEC1F9E834A00545276 /* Frameworks */,
+				CE74CFED1F9E834A00545276 /* Resources */,
+				0ADD59DC8AA3A6CFB076A9E5 /* [CP] Embed Pods Frameworks */,
+				EBB519387E157A8706E16CBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE74CFF11F9E834A00545276 /* PBXTargetDependency */,
+			);
+			name = AgileContentChallengeTests;
+			productName = AgileContentChallengeTests;
+			productReference = CE74CFEF1F9E834A00545276 /* AgileContentChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE74CFF91F9E834A00545276 /* AgileContentChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE74D0091F9E834A00545276 /* Build configuration list for PBXNativeTarget "AgileContentChallengeUITests" */;
+			buildPhases = (
+				C5AC75C494072D4C33F6AD11 /* [CP] Check Pods Manifest.lock */,
+				CE74CFF61F9E834A00545276 /* Sources */,
+				CE74CFF71F9E834A00545276 /* Frameworks */,
+				CE74CFF81F9E834A00545276 /* Resources */,
+				4ABFE747DBE2A32CE0B29FA1 /* [CP] Embed Pods Frameworks */,
+				AB887AFA2A7B1BFD6D72C622 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE74CFFC1F9E834A00545276 /* PBXTargetDependency */,
+			);
+			name = AgileContentChallengeUITests;
+			productName = AgileContentChallengeUITests;
+			productReference = CE74CFFA1F9E834A00545276 /* AgileContentChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE74CFD31F9E834A00545276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NATI;
+				TargetAttributes = {
+					CE74CFDA1F9E834A00545276 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CE74CFEE1F9E834A00545276 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE74CFDA1F9E834A00545276;
+					};
+					CE74CFF91F9E834A00545276 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE74CFDA1F9E834A00545276;
+					};
+				};
+			};
+			buildConfigurationList = CE74CFD61F9E834A00545276 /* Build configuration list for PBXProject "AgileContentChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE74CFD21F9E834A00545276;
+			productRefGroup = CE74CFDC1F9E834A00545276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE74CFDA1F9E834A00545276 /* AgileContentChallenge */,
+				CE74CFEE1F9E834A00545276 /* AgileContentChallengeTests */,
+				CE74CFF91F9E834A00545276 /* AgileContentChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE74CFD91F9E834A00545276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE74CFE91F9E834A00545276 /* LaunchScreen.storyboard in Resources */,
+				CE74CFE61F9E834A00545276 /* Assets.xcassets in Resources */,
+				CE74CFE41F9E834A00545276 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE74CFED1F9E834A00545276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE74CFF81F9E834A00545276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ADD59DC8AA3A6CFB076A9E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AgileContentChallengeTests/Pods-AgileContentChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		361DBF722BE33A886A650D90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4ABFE747DBE2A32CE0B29FA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AgileContentChallengeUITests/Pods-AgileContentChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A2FD3416247A786283DF5F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AgileContentChallenge/Pods-AgileContentChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB887AFA2A7B1BFD6D72C622 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AgileContentChallengeUITests/Pods-AgileContentChallengeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5AC75C494072D4C33F6AD11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D491172DB7993E8561B8D16D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AgileContentChallenge/Pods-AgileContentChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB519387E157A8706E16CBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AgileContentChallengeTests/Pods-AgileContentChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1001510BAA43BADA359EFB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE74CFD71F9E834A00545276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE74D01A1F9FB41000545276 /* RequestFactory.swift in Sources */,
+				CE74D00D1F9E841100545276 /* GitHubSearchViewController.swift in Sources */,
+				CE74D00F1F9E842800545276 /* GitHubProfileViewController.swift in Sources */,
+				CE74D01C1F9FB50500545276 /* Repository.swift in Sources */,
+				CE74D0181F9FAF2300545276 /* GitHubProfileService.swift in Sources */,
+				CE74CFDF1F9E834A00545276 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE74CFEB1F9E834A00545276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE74CFF41F9E834A00545276 /* AgileContentChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE74CFF61F9E834A00545276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE74CFFF1F9E834A00545276 /* AgileContentChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE74CFF11F9E834A00545276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE74CFDA1F9E834A00545276 /* AgileContentChallenge */;
+			targetProxy = CE74CFF01F9E834A00545276 /* PBXContainerItemProxy */;
+		};
+		CE74CFFC1F9E834A00545276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE74CFDA1F9E834A00545276 /* AgileContentChallenge */;
+			targetProxy = CE74CFFB1F9E834A00545276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE74CFE21F9E834A00545276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE74CFE31F9E834A00545276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE74CFE71F9E834A00545276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE74CFE81F9E834A00545276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE74D0011F9E834A00545276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE74D0021F9E834A00545276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE74D0041F9E834A00545276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289F985BB278A20F319C6392 /* Pods-AgileContentChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgileContentChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = unifor.br.AgileContentChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE74D0051F9E834A00545276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A449721B3545BFC76FDC1BCB /* Pods-AgileContentChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgileContentChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = unifor.br.AgileContentChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE74D0071F9E834A00545276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309AD94ABB09C48645305A52 /* Pods-AgileContentChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AgileContentChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = unifor.br.AgileContentChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgileContentChallenge.app/AgileContentChallenge";
+			};
+			name = Debug;
+		};
+		CE74D0081F9E834A00545276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080EE79D9D33060CD31B0479 /* Pods-AgileContentChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AgileContentChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = unifor.br.AgileContentChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgileContentChallenge.app/AgileContentChallenge";
+			};
+			name = Release;
+		};
+		CE74D00A1F9E834A00545276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 471AFE738B1226A82375BDAD /* Pods-AgileContentChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AgileContentChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = unifor.br.AgileContentChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AgileContentChallenge;
+			};
+			name = Debug;
+		};
+		CE74D00B1F9E834A00545276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C4DCDE9D7A3703C94DED32 /* Pods-AgileContentChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AgileContentChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = unifor.br.AgileContentChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AgileContentChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE74CFD61F9E834A00545276 /* Build configuration list for PBXProject "AgileContentChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE74D0011F9E834A00545276 /* Debug */,
+				CE74D0021F9E834A00545276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE74D0031F9E834A00545276 /* Build configuration list for PBXNativeTarget "AgileContentChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE74D0041F9E834A00545276 /* Debug */,
+				CE74D0051F9E834A00545276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE74D0061F9E834A00545276 /* Build configuration list for PBXNativeTarget "AgileContentChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE74D0071F9E834A00545276 /* Debug */,
+				CE74D0081F9E834A00545276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE74D0091F9E834A00545276 /* Build configuration list for PBXNativeTarget "AgileContentChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE74D00A1F9E834A00545276 /* Debug */,
+				CE74D00B1F9E834A00545276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE74CFD31F9E834A00545276 /* Project object */;
+}
